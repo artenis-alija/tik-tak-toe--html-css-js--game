@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+.cell{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px;
+    font-size: 70px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
